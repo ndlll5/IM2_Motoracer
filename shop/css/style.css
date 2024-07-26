@@ -1,0 +1,253 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.navbar-brand {
+    color: #ff0000 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff0000 !important;
+}
+
+.btn-primary {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.btn-primary:hover {
+    background-color: #cc0000;
+    border-color: #cc0000;
+}
+
+.form-control {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555555;
+    font-family: sans-serif;
+}
+
+.form-control:focus {
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #ff0000;
+}
+
+.alert-success {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.alert-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+/* New styles for shop page */
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin: 5px;
+    padding: 10px;
+    background-color: #333333;
+}
+
+.img-fit {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img-fit img {
+    transition: 0.3s all;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.product:hover img {
+    opacity: 0.7;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.pagination>li.disabled>a {
+    background: #434141 !important;
+    color: #b00101 !important;
+}
+
+.pagination .page-item .page-link {
+    background: #333333;
+    border-color: #555555;
+    color: #ff0000;
+}
+
+.pagination .page-item .page-link:hover {
+    background: #ff0000;
+    color: #ffffff;
+}
+body {
+    background-color: #1a1a1a;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+}
+.card {
+    background-color: #2c2c2c;
+    border: 1px solid #3d3d3d;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+    height: 100%;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+.card-img-top {
+    background:white;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card-title {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-text {
+    color: #e0e0e0;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pagination {
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn {
+    background-color: #2c2c2c;
+    border-color: #3d3d3d;
+    color: #ffffff;
+}
+.btn:hover {
+    background-color: #444;
+}
+.category-card {
+    max-height: 500px;
+    overflow-y: auto;
+    background-color: #2c2c2c;
+    border: 1px solid #3d3d3d;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: -100px; /* Adjust left margin */
+    margin-top: 110px;  /* Adjust top margin */
+}
+.category-card h5 {
+    color: #ffffff;
+    font-weight: bold;
+}
+.category-card .nav-link {
+    color: #e0e0e0;
+    font-size: 16px;
+}
+.category-card .nav-link:hover {
+    color: #ffffff;
+}
+.category-card::-webkit-scrollbar {
+    width: 8px;
+}
+.category-card::-webkit-scrollbar-thumb {
+    background-color: #3d3d3d;
+    border-radius: 4px;
+}
+.category-card::-webkit-scrollbar-track {
+    background-color: #2c2c2c;
+}
+.page-item.disabled .page-link {
+    border-color: #7a7a7a;
+}
+#display-image{
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+.img-thumbnail {
+    height: 100px;
+    object-fit: cover;
+}
+.carousel-box {
+    position: relative; 
+}
+.carousel {
+    position: relative; 
+}
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10; 
+    padding: 10px;
+    border-radius: 5px;
+}
+.carousel-control-prev {
+    left: 10px; 
+}
+.carousel-control-next {
+    right: 10px; 
+}
+.add-to-cart-btn:hover, .view-details-btn:hover {
+    background-color: darkred;
+    color: #fff;
+  }
+  
+  .add-to-cart-btn, .view-details-btn{
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+.quantity-input::-webkit-outer-spin-button, .quantity-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn-custom {
+    color: #fff; /* Red text */
+    background-color: #ff0000; /* Red Background */
+    border: none;
+}
+.btn-custom:hover {
+    background-color: darkred; /* Dark Red background on hover */
+    color: #fff; /* White text on hover */
+}
+.remove-item-btn{
+    border: none;
+}
